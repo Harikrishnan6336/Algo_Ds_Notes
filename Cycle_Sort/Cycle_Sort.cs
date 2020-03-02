@@ -27,7 +27,7 @@ class CycleSort {
                 item = arr[pos]; 
                 arr[pos] = temp; 
                 writes++; 
-            } 
+        } 
   
             while (pos != cycle_start) { 
                 pos = cycle_start; 

@@ -59,7 +59,7 @@ public static void Main()
         int n = arrray.Length;
         CycleSort(array, n); 
         Console.Write("After sorting  : ")
-        for (int i = 0; i < n; i++) 
+        for(int i = 0; i < n; i++) 
             Console.Write(array[i] + " "); 
     } 
 } 

@@ -16,12 +16,15 @@ class CycleSort {
                 if (arr[i] < item) 
                     pos++; 
                     
+            //If item is in correct position
             if (pos == cycle_start) 
                 continue; 
-  
+            
+            //Ignoring all duplicate elements
             while (item == arr[pos]) 
                 pos += 1; 
-  
+            
+            //Keeping the item in its correct position
             if (pos != cycle_start) { 
                 int temp = item; 
                 item = arr[pos]; 

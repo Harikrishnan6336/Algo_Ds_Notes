@@ -49,15 +49,25 @@ class CycleSort {
         } 
     } 
   
-  public static void Main() 
+ 
+public static void Main() 
     { 
-        int[] arr = { 123, 2238, 23, 30, 320, 1424, 322, 234 }; 
-        int n = arr.Length;   
-        cycleSort(arr, n); 
-        Console.Write("After sorting  : "); 
+        int size;
+        size= Convert.ToInt32(Console.ReadLine());  
+        int[] array = new int[size];
+        for(int i=0; i<size; i++)  
+	          array[i] = Convert.ToInt32(Console.ReadLine()); 
+        int n = arrray.Length;
+        QuickSort(array, n); 
+        Console.Write("After sorting  : ")
         for (int i = 0; i < n; i++) 
-            Console.Write(arr[i] + " "); 
+            Console.Write(array[i] + " "); 
     } 
 } 
-////OUTPUT
-///After sorting  : 23 30 123 234 320 322 1424 2238
+//SAMPLE INPUT AND OUTPUT
+// 7 
+// 4 7 9 5 3 9 4
+// After sorting : 3 4 4 5 7 9 9 
+// 5
+// 5 1 7 3 2
+// After sorting : 1 2 3 5 7

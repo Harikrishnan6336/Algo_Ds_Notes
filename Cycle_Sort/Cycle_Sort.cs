@@ -54,7 +54,7 @@ public static void Main()
         int size;
         size= Convert.ToInt32(Console.ReadLine());  
         int[] array = new int[size];
-        for(int i=0; i<size; i++)  
+        for (int i=0; i<size; i++)  
 	    array[i] = Convert.ToInt32(Console.ReadLine()); 
         int n = arrray.Length;
         CycleSort(array, n); 

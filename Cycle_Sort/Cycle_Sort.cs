@@ -31,14 +31,17 @@ class CycleSort {
   
             while (pos != cycle_start) { 
                 pos = cycle_start; 
-   
+              
+                // Find position where we put the element 
                 for (int i = cycle_start + 1; i < n; i++) 
                     if (arr[i] < item) 
                         pos += 1; 
-  
+              
+               //Ignoring duplicate elements
                 while (item == arr[pos]) 
-                    pos += 1; 
-  
+                    pos += 1;
+              
+                //Keeping the item in its right position
                 if (item != arr[pos]) { 
                     int temp = item; 
                     item = arr[pos]; 

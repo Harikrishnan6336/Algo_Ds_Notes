@@ -63,7 +63,7 @@ public static void Main()
             Console.Write(array[i] + " "); 
     } 
 } 
-///SAMPLE INPUT AND OUTPUT
+//SAMPLE INPUT AND OUTPUT
 // 7 
 // 4 7 9 5 3 9 4
 // After sorting : 3 4 4 5 7 9 9 

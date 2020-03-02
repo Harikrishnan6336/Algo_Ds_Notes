@@ -49,13 +49,11 @@ class CycleSort {
         } 
     } 
   
-    public static void Main() 
+  public static void Main() 
     { 
         int[] arr = { 123, 2238, 23, 30, 320, 1424, 322, 234 }; 
-        int n = arr.Length; 
-          
+        int n = arr.Length;   
         cycleSort(arr, n); 
-  
         Console.Write("After sorting  : "); 
         for (int i = 0; i < n; i++) 
             Console.Write(arr[i] + " "); 

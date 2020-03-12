@@ -83,7 +83,6 @@ Enter the numbers :
 6
 The first subset is: 
 45 45 6 
-
 The second subset is: 
 12 87 1 
 
@@ -99,7 +98,6 @@ Enter the numbers :
 89
 The first subset is: 
 45 1 76 
-
 The second subset is: 
 23 12 0 89
 '''
